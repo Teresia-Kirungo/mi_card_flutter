@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 
 void main() {
   runApp(
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.brown[600],
         body: SafeArea(
           child: Center(
             child: Column(
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
                     fontFamily: 'Pacifico',
                     fontSize: 40.0,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white,
+                    color: Colors.red.shade50,
                   ),
                 ),
                 Text(
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
                     fontFamily: 'SourceSansPro',
                     fontSize: 20.0,
                     fontWeight: FontWeight.bold,
-                    color: Colors.teal[100],
+                    color: Colors.red.shade100,
                     letterSpacing: 2.5,
                   ),
                 ),
@@ -45,7 +46,7 @@ class MyApp extends StatelessWidget {
                   height: 20.0,
                   width: 150.0,
                   child: Divider(
-                    color: Colors.teal.shade100,
+                    color: Colors.red.shade100,
                   ),
                 ),
                 Card(
@@ -57,12 +58,12 @@ class MyApp extends StatelessWidget {
                     child: ListTile(
                       leading: Icon(
                         Icons.phone,
-                        color: Colors.teal,
+                        color: Colors.brown,
                       ),
                       title: Text(
                         '+254 722 000 020',
                         style: TextStyle(
-                          color: Colors.teal[900],
+                          color: Colors.brown[600],
                           fontFamily: 'SourceSansPro',
                           fontSize: 20.0,
                         ),
@@ -79,12 +80,12 @@ class MyApp extends StatelessWidget {
                     child: ListTile(
                       leading: Icon(
                         Icons.email_rounded,
-                        color: Colors.teal,
+                        color: Colors.brown,
                       ),
                       title: Text(
                         'flutter@gmail.com',
                         style: TextStyle(
-                          color: Colors.teal[900],
+                          color: Colors.brown[600],
                           fontFamily: 'SourceSansPro',
                           fontSize: 20.0,
                         ),
