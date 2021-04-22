@@ -8,8 +8,8 @@ Now that you've seen how to create a Flutter app entirely from scratch, we're go
 
 Mi Card is a personal business card. Imagine every time you wanted to give someone your contact details or your business card but you didn't have it on you. Well, now you can get them to download your business card as an app.
 <table><tr>
-<td> <img src="https://github.com/Teresia-Kirungo/mi_card_flutter/blob/master/images/angela-card.jpeg" alt="Drawing" style="width: 250px;"/> </td>
-<td> <img src="https://github.com/Teresia-Kirungo/mi_card_flutter/blob/master/images/Terry-Card.jpeg" alt="Drawing" style="width: 250px;"/> </td>
+  <td> <p>Mi Card App Brewery Creation</p><img src="https://github.com/Teresia-Kirungo/mi_card_flutter/blob/master/images/angela-card.jpeg" alt="Angela-Card" style="width: 250px;"/> </td>
+<td> <p>Mi Card Terry's Creation</p><img src="https://github.com/Teresia-Kirungo/mi_card_flutter/blob/master/images/Terry-Card.jpeg" alt="Terry-Card" style="width: 250px;"/> </td>
 </tr></table>
 
 ## What you will learn
